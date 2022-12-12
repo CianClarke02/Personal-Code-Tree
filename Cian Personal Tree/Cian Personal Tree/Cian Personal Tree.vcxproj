@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="BinaryTreeP.h" />
+    <ClInclude Include="BSTNode.h" />
+    <ClInclude Include="TNode.h" />
+    <ClInclude Include="UKey.h" />
     <ClInclude Include="Users.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTreeMain.cpp" />
+    <ClCompile Include="PTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
